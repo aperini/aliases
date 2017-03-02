@@ -2,6 +2,7 @@
 
 ## $HOME/.gitconfig
 
+f = fetch<br />
 ck = checkout<br />
 cm = commit<br />
 st = status<br />
