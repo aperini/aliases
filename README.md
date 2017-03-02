@@ -1,9 +1,23 @@
 # aliases
 
+## $HOME/.gitconfig
+
+ck = checkout<br />
+cm = commit<br />
+st = status<br />
+br = branch<br />
+rh = reset<br />
+type = cat-file<br />
+dump = cat-file<br />
+log1 = log --oneline --decorate<br />
+hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short<br />
+
+more : http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/
+
 ## CMDER
 
 %CMDER_ROOT%\config\aliases<br />
-%CMDER_ROOT%\config\user-aliases.cmd
+%CMDER_ROOT%\config\user-aliases.cmd<br />
 
 ;= @echo off<br />
 ;= rem Call DOSKEY and use this file as the macrofile<br />
