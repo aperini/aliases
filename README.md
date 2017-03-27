@@ -1,7 +1,9 @@
-# aliases
+# Handy aliases
 
-## $HOME/.gitconfig
+## Location: $HOME/.gitconfig
+## Visualize: git alias
 
+alias = config --get-regexp alias
 f = fetch<br />
 ck = checkout<br />
 cm = commit<br />
