@@ -3,18 +3,20 @@
 ## Location: $HOME/.gitconfig
 ## Visualize: git alias
 
-alias = config --get-regexp alias<br />
-f = fetch<br />
-ck = checkout<br />
-cm = commit<br />
-st = status<br />
-br = branch<br />
-rh = reset<br />
-type = cat-file<br />
-dump = cat-file<br />
-log1 = log --oneline --decorate<br />
-hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short<br />
-on = show --pretty="" --name-only<br />
+[alias]
+    alias = config --get-regexp alias
+    f = fetch
+    p = pull
+    ck = checkout
+    cm = commit
+    st = status
+    br = branch
+    rh = reset --hard
+    type = cat-file
+    dump = cat-file
+    log1 = log --oneline --decorate
+    hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+    on = show --pretty="" --name-only
 
 more : http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/
 
