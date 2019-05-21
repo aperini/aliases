@@ -1,7 +1,7 @@
-# Handy aliases
+## Handy aliases
 
-## Location: $HOME/.gitconfig
-## Visualize: git alias
+#### Location: $HOME/.gitconfig
+#### Visualize: git alias
 
 [alias]<br />
     alias = config --get-regexp alias<br />
@@ -12,6 +12,8 @@
     st = status<br />
     br = branch<br />
     rh = reset --hard<br />
+    ca = commit --amend<br />
+    pf = push -f<br />
     type = cat-file<br />
     dump = cat-file<br />
     log1 = log --oneline --decorate<br />
@@ -20,7 +22,16 @@
 
 more : http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/
 
-## CMDER
+###Other configs
+
+[merge]<br />
+    tool = meld<br />
+[mergetool "meld"]<br />
+    path = c:/Meld/Meld.exe<br />
+[diff]
+    tool = meld
+
+### CMDER
 
 %CMDER_ROOT%\config\aliases<br />
 %CMDER_ROOT%\config\user-aliases.cmd<br />
@@ -48,7 +59,7 @@ cmderr=cd /d "%CMDER_ROOT%"<br />
 .......=cd ../../../../../..<br />
 
 
-## ~/.bashrc
+### ~/.bashrc
 
 alias ll='ls -alF'<br />
 alias la='ls -A'<br />
@@ -59,3 +70,5 @@ alias ....='cd ../../..'<br />
 alias .....='cd ../../../..'<br />
 alias ......='cd ../../../../..'<br />
 alias .......='cd ../../../../../..'<br />
+
+
